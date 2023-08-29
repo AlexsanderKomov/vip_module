@@ -1,0 +1,73 @@
+.hero {
+  margin-bottom: 56px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 166px 42px 84px;
+  min-height: 616px;
+  background-color: var(--color-grey);
+  background-image: url(../../img/hero/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__title {
+  margin-bottom: 26px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.hero__description {
+  margin-bottom: 33px;
+  padding-left: 13px;
+  max-width: 440px;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.hero__price {
+  margin-bottom: 64px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  border-bottom: 1px solid var(--color-white);
+  font-family: 'OpenSans';
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hero__btn_wrapper {
+  align-self: center;
+}
+
+.hero__btn {
+  padding: 17px 17px 16px 55px;
+  border-radius: 10px;
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-position: 16px center;
+  background-repeat: no-repeat;
+  background-size: 27px;
+}
+
+.hero__btn-kitchen {
+  background-image: url(../../img/hero/kitchen.svg);
+}
+
+.hero__btn-closet {
+  background-image: url(../../img/hero/closet.svg);
+}
+
+.hero__btn:not(:last-child) {
+  margin-right: 32px;
+}

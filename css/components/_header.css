@@ -1,0 +1,29 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 17px 70px 11px 72px;
+  color: var(--color-text);
+}
+
+.header__logo_link {
+  margin-right: 142px;
+}
+
+.nav {
+  margin-right: 65px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 47px;
+}
+
+.header__city {
+  margin-right: 81px;
+  font-size: 14px;
+  color: var(--color-dark-green);
+}

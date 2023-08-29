@@ -1,0 +1,30 @@
+.clients {
+  margin-bottom: 72px;
+}
+
+.clients__container {
+  padding: 0 32px;
+  color: var(--color-text);
+}
+
+.clients__title {
+  margin-bottom: 49px;
+  color: var(--color-text);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.client__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.client__img {
+  margin-bottom: 13px;
+}
