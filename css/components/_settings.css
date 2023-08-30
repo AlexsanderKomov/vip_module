@@ -191,4 +191,5 @@ a {
 
 a:hover {
   color: var(--color-btn);
+  text-decoration: underline;
 }
