@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 51px;
   padding: 50px 32px;
   background-color: var(--color-green);
 }
@@ -55,10 +54,9 @@
   font-weight: 700;
   color: var(--color-white);
   background-color: var(--color-btn);
+  transition: background-color 0.3s ease-in-out;
 }
 
-.questions__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.form__btn:hover {
+  background-color: var(--color-hover);
 }

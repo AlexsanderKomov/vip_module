@@ -1,0 +1,41 @@
+.header {
+  margin-bottom: 32px;
+}
+
+.constructor {
+  margin-bottom: 48px;
+}
+
+.constructor__link {
+  margin-left: 32px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+svg path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.constructor__link:hover svg path {
+  fill: var(--color-hover);
+}
+
+.constructor__title {
+  margin-bottom: 13px;
+  padding: 10px 0;
+  padding-bottom: 20px;
+  min-width: 357px;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--color-text);
+  text-align: center;
+  background-image: url(../kitchenDesigner/img/kitchen.svg);
+  background-repeat: no-repeat;
+  background-position: 67%;
+  background-size: 89px 101px;
+}
+
+.constructor__calculator {
+  min-height: 584px;
+  background-color: var(--color-bg);
+}

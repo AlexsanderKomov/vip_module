@@ -42,11 +42,11 @@
   font-weight: 700;
 }
 
-.hero__btn_wrapper {
+.hero__links {
   align-self: center;
 }
 
-.hero__btn {
+.hero__link {
   padding: 17px 17px 16px 55px;
   border-radius: 10px;
   background-color: var(--color-btn);
@@ -58,16 +58,23 @@
   background-position: 16px center;
   background-repeat: no-repeat;
   background-size: 27px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.hero__btn-kitchen {
+.hero__link:hover {
+  color: var(--color-white);
+  background-color: var(--color-hover);
+}
+
+.hero__link-kitchen {
   background-image: url(../../img/hero/kitchen.svg);
 }
 
-.hero__btn-closet {
+.hero__link-closet {
   background-image: url(../../img/hero/closet.svg);
 }
 
-.hero__btn:not(:last-child) {
+.hero__link:not(:last-child) {
   margin-right: 32px;
 }

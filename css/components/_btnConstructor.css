@@ -1,0 +1,32 @@
+.constructor-btn {
+  margin-bottom: 58px;
+}
+
+.constructor-btn__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.constructor__btn {
+  padding: 17px 96px;
+  border-radius: 10px;
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-position: 16px center;
+  background-repeat: no-repeat;
+  background-size: 27px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.constructor__btn:hover {
+  background-color: var(--color-hover);
+}
+
+.constructor__btn:not(:last-child) {
+  margin-right: 32px;
+}

@@ -47,3 +47,11 @@
 .list__footer-right {
   display: flex;
 }
+
+svg path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.footer__social:hover svg path {
+  fill: var(--color-hover);
+}

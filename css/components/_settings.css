@@ -122,6 +122,8 @@ body {
   --color-light-green: #8bc02b;
   --color-bl: #000;
   --color-error: #d11616;
+  --color-bg: #d9d9d9;
+  --color-hover: #f84b16;
 }
 
 .p-reset {
@@ -181,4 +183,12 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+a {
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-btn);
 }
