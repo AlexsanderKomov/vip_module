@@ -7,8 +7,13 @@
   color: var(--color-text);
 }
 
-.header__logo_link {
+.header__logo {
   margin-right: 142px;
+}
+
+.nav__link-active {
+  color: #a72701;
+  pointer-events: none;
 }
 
 .nav {
