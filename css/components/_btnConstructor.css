@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.constructor__btn {
+.constructor-btn__btn {
   padding: 17px 96px;
   border-radius: 10px;
   background-color: var(--color-btn);
@@ -23,10 +23,10 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.constructor__btn:hover {
+.constructor-btn__btn:hover {
   background-color: var(--color-hover);
 }
 
-.constructor__btn:not(:last-child) {
+.constructor-btn__btn:not(:last-child) {
   margin-right: 32px;
 }

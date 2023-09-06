@@ -15,16 +15,16 @@
   font-weight: 500;
 }
 
-.client__list {
+.clients__list {
   display: flex;
   justify-content: space-between;
 }
 
-.client__item {
+.clients__item {
   display: flex;
   flex-direction: column;
 }
 
-.client__img {
+.clients__img {
   margin-bottom: 13px;
 }

@@ -49,6 +49,10 @@
   background-color: var(--color-bg);
 }
 
+.map__field {
+  border: none;
+}
+
 /* .map iframe {
   width: ;
 }  */
