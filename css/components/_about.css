@@ -207,6 +207,8 @@
 }
 
 .advantages__text {
+  font-weight: 700;
+  line-height: 19.5px;
   color: var(--color-white);
 }
 

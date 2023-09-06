@@ -1,0 +1,152 @@
+@media (max-width: 991px) {
+  .header__container {
+    padding: 10px 40px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    width: 170px;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 70px 40px;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--color-white);
+    box-shadow: 5px 0 13px 0px;
+    transform: translateX(-300%);
+    z-index: 100;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header__wrapper-active {
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .header__city {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .burger {
+    position: relative;
+    display: flex;
+    z-index: 300;
+  }
+
+  .hero__container {
+    padding: 80px 30px 50px;
+    min-height: 400px;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+
+  .hero__description {
+    margin-bottom: 20px;
+    padding: 0;
+    max-width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    padding: 10px 15px;
+  }
+
+  .header__logo {
+    width: 120px;
+  }
+
+  .header__wrapper-active {
+    padding-left: 15px;
+    width: 80%;
+  }
+
+  .burger {
+    height: 15px;
+  }
+
+  .hero__container {
+    padding: 50px 15px;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+
+  .hero__price {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .hero__description {
+    margin-bottom: 20px;
+    padding: 0;
+    max-width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero__links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .hero__link:not(:last-child) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .header__wrapper-active {
+    width: 100%;
+  }
+
+  .header__city {
+    text-align: left;
+  }
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__description {
+    margin-bottom: 10px;
+  }
+
+  .hero__link {
+    background-size: 20px;
+  }
+}

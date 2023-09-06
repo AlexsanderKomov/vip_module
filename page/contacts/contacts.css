@@ -45,6 +45,10 @@
 }
 
 .map {
-  min-height: 528px;
+  height: 528px;
   background-color: var(--color-bg);
 }
+
+/* .map iframe {
+  width: ;
+}  */

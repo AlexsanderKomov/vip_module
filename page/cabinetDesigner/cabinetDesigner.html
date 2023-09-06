@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="../../img/favicon-16x16.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vip модуль</title>
     <link rel="stylesheet" href="../../css/normalaiz.css" />
@@ -17,45 +18,52 @@
         <a href="../../index.html" class="header__logo">
           <img src="../../img/header/logo.png" alt="Логотип" />
         </a>
-        <nav class="nav">
-          <ul class="nav__list list-reset">
-            <li class="nav__item">
-              <a
-                class="nav__link"
-                href="../kitchenDesigner/kitchenDesigner.html"
-                >Конструктор кухонь</a
-              >
-            </li>
-            <li class="nav__item">
-              <a class="nav__link nav__link-active" href="#"
-                >Конструктор шкафов</a
-              >
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="../contacts/contacts.html">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="header__city btn-reset">
-          Ваш город Санкт-Петербург
-        </button>
-        <button class="header__personal_area btn-reset">
-          <svg
-            width="22"
-            height="25"
-            viewBox="0 0 22 25"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21 23.2222V20.7531C21 19.4434 20.4732 18.1873 19.5355 17.2612C18.5979 16.3351 17.3261 15.8148 16 15.8148H6C4.67392 15.8148 3.40215 16.3351 2.46447 17.2612C1.52678 18.1873 1 19.4434 1 20.7531V23.2222M16 5.93827C16 8.6656 13.7614 10.8765 11 10.8765C8.23858 10.8765 6 8.6656 6 5.93827C6 3.21094 8.23858 1 11 1C13.7614 1 16 3.21094 16 5.93827Z"
-              stroke="#242424"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
+        <div class="header__wrapper">
+          <nav class="nav">
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="../kitchenDesigner/kitchenDesigner.html"
+                  >Конструктор кухонь</a
+                >
+              </li>
+              <li class="nav__item nav__link-active">
+                <a class="nav__link" href="#">Конструктор шкафов</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="../contacts/contacts.html"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="header__city btn-reset">
+            Ваш город Санкт-Петербург
+          </button>
+          <button class="header__personal_area btn-reset">
+            <svg
+              width="22"
+              height="25"
+              viewBox="0 0 22 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 23.2222V20.7531C21 19.4434 20.4732 18.1873 19.5355 17.2612C18.5979 16.3351 17.3261 15.8148 16 15.8148H6C4.67392 15.8148 3.40215 16.3351 2.46447 17.2612C1.52678 18.1873 1 19.4434 1 20.7531V23.2222M16 5.93827C16 8.6656 13.7614 10.8765 11 10.8765C8.23858 10.8765 6 8.6656 6 5.93827C6 3.21094 8.23858 1 11 1C13.7614 1 16 3.21094 16 5.93827Z"
+                stroke="#242424"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="header__burger burger">
+          <span class="burger__line"> </span>
+          <span class="burger__line"> </span>
+          <span class="burger__line"> </span>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -115,13 +123,18 @@
           </ul>
         </div>
         <div class="footer__right">
-          <a class="footer__contact-tel" href="tel:#">+7 (911) 257-55-99 </a>
-          <a class="footer__contact-mail" href="malito:#">
+          <a class="footer__contact-tel" href="tel:+79112575599"
+            >+7 (911) 257-55-99
+          </a>
+          <a class="footer__contact-mail" href="mailto:89112575599@mail.ru">
             89112575599@mail.ru
           </a>
           <ul class="list__footer-right list-reset">
             <li class="footer__item footer__item-right">
-              <a class="footer__social footer__social-vk" href="#"
+              <a
+                class="footer__social footer__social-vk"
+                href="https://vk.com/meb98"
+                target="_blank"
                 ><svg
                   width="32"
                   height="32"
@@ -138,7 +151,11 @@
               </a>
             </li>
             <li class="footer__item footer__item-right">
-              <a class="footer__social footer__social-yt" href="#">
+              <a
+                class="footer__social footer__social-yt"
+                href="https://www.youtube.com/channel/UCNlsXQU0ACPoVdI-HAUvB6w"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
